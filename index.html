@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="company-icon">Company Icon</div>
+        <div class="header-right"> 
+            <img class="notification" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png" alt="Profile Image">
+            <img class="profile" src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="Profile Image">
+        </div>
+    </header>
+
+    <div class="main-body">
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-item" id="dashboard-item">🗃️Dashboard</div> 
+                <div class="sidebar-item" id="tickets-item">🎫Tickets</div> 
+            </div>
+        </div>
+        
+
+        <div class="main-content"> 
+            <div class="search-form">
+                <input type="text" class="search-input" placeholder="Search..." id="search-input">
+                <button class="create-button">Create</button>
+            </div>  
+            <br>
+            <br>
+            <br>
+            <div class="activity-header">
+                <div class="refresh-icon" style="cursor: pointer; font-size: x-large;" onclick="window.location.reload()">All Activities 🔃</div>
+                <div class="mail-filter">
+                    <div class="mail-icon" style="cursor: pointer;">📩</div>
+                    <select class="view-dropdown">
+                        <option value="all">Filter</option>
+                        <option value="pending">Filter 1</option>
+                        <option value="pending">Filter 2</option>
+                    </select>
+                </div>
+            </div> 
+            
+            <div class="tables-container">
+                <div class="left-table">
+                     <h3>Views</h3>
+                     <div>
+                         <button>All Request</button>
+                         <button>My Pendings</button>
+                     </div>
+                </div>
+
+                <div class="right-table">
+                    <table>  
+                        <thead>
+                            <tr>
+                                <th>Collaborator</th>
+                                <th>Project Name</th>
+                                <th>Description</th>
+                                <th>Assigned To</th> 
+                            </tr>
+                        </thead>   
+                        <tbody> 
+                            <!-- JavaScript Data Fetch  -->
+                        </tbody>  
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>

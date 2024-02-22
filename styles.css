@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.profile{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: #47069c;
+    width: 200px;
+    height: 91.5vh;
+    float: left;
+    color: rgb(201, 191, 191); 
+}
+
+.sidebar-content {
+    padding: 20px; 
+}
+
+.sidebar-item {
+    padding: 10px 0;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main-content {
+    margin-left: 200px; 
+}
+
+.search-form { 
+    margin-bottom: 20px;  
+    float: right; 
+}
+
+.search-input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px; 
+}
+
+.create-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer; 
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.requests-header {
+    margin-bottom: 10px;
+}
+
+.mail-filter{
+    display: flex;
+}
+
+.view-dropdown {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.tables-container{
+    display: flex;
+}
+
+.left-table{
+    border: 1px solid black;
+    height: 76.5vh; 
+    padding: 20px;
+}
+
+.left-table button{
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.right-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.right-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.right-table tbody{
+    background-color: rgb(243, 242, 242);
+}
+
+.right-table th, .right-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid transparent; /* Set border color to transparent */
+}
+ 
+.right-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none; 
+    color: white;
+}
+
+.reject{
+    background-color: red;
+    border-radius: 15%; 
+}
+
+.right-table button:hover {
+    background-color: #830e0e;
+}
+ 
+ 
